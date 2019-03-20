@@ -10,7 +10,7 @@
             android:summary="%s"
             android:entries="@array/channel_entries"
             android:entryValues="@array/channel_values"
-            android:defaultValue="WEEKLY" />
+            android:defaultValue="UNOFFICIAL" />
 -->
 
     <PreferenceCategory

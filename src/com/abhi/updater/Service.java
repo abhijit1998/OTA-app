@@ -1,4 +1,4 @@
-package com.aicp.updater;
+package com.abhi.updater;
 
 import static android.os.Build.DEVICE;
 import static android.os.Build.FINGERPRINT;
@@ -47,13 +47,13 @@ public class Service extends IntentService {
 
     private static final boolean DEBUG_ALWAYS_UPDATE = false;
 
-    public static final String INTENT_UPDATE = "com.aicp.updater.update";
-    public static final String EXTRA_PROGRESS = "com.aicp.updater.progress";
-    public static final String EXTRA_INFO = "com.aicp.updater.info";
-    public static final String EXTRA_FILENAME = "com.aicp.updater.filename";
-    public static final String ACTION_INFO = "com.aicp.updater.action.info";
-    public static final String ACTION_DOWNLOAD = "com.aicp.updater.action.download";
-    public static final String ACTION_ABORT = "com.aicp.updater.action.abort";
+    public static final String INTENT_UPDATE = "com.abhi.updater.update";
+    public static final String EXTRA_PROGRESS = "com.abhi.updater.progress";
+    public static final String EXTRA_INFO = "com.abhi.updater.info";
+    public static final String EXTRA_FILENAME = "com.abhi.updater.filename";
+    public static final String ACTION_INFO = "com.abhi.updater.action.info";
+    public static final String ACTION_DOWNLOAD = "com.abhi.updater.action.download";
+    public static final String ACTION_ABORT = "com.abhi.updater.action.abort";
 
     public static final int INFO_NONE = 0;
     public static final int INFO_DOWNLOADING = 1;
@@ -348,7 +348,7 @@ public class Service extends IntentService {
             }
 
             final String channel = SystemProperties.get("sys.update.channel",
-                preferences.getString(PREFERENCE_CHANNEL, "WEEKLY"));
+                preferences.getString(PREFERENCE_CHANNEL, "UNOFFICIAL"));
 
             Log.d(TAG, "fetching metadata for " + AICP_DEVICE + " in " + channel + " with version: " + MOD_VERSION);
             InputStream input = fetchData(AICP_DEVICE + "&type=" + channel).getInputStream();

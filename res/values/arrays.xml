@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="channel_entries" translatable="false">
-        <item>@string/channel_incremental</item>
-        <item>@string/channel_weekly</item>
+        <item>@string/channel_stable</item>
+        <item>@string/channel_unofficial</item>
     </string-array>
 
     <string-array name="channel_values" translatable="false">
-        <item>INCREMENTAL</item>
-        <item>WEEKLY</item>
+        <item>stable</item>
+        <item>unofficial</item>
     </string-array>
 
     <string-array name="network_type_entries" translatable="false">

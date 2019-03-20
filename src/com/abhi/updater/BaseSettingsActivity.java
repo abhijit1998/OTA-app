@@ -1,4 +1,4 @@
-package com.aicp.updater;
+package com.abhi.updater;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;

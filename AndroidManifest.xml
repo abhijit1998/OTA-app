@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.aicp.updater"
+        package="com.abhi.updater"
         android:versionCode="2"
         android:versionName="2">
 

@@ -1,4 +1,4 @@
-package com.aicp.updater;
+package com.abhi.updater;
 
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.content.Context;

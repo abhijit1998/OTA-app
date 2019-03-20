@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AICP OTA Updater</string>
+    <string name="app_name">OTA Updater</string>
     <string name="notification_channel_update_available">New update</string>
     <string name="notification_channel_update_prompt">Update prompt</string>
     <string name="notification_channel_update_progress">Progress</string>
@@ -18,10 +18,10 @@
     <string name="notification_reboot_action_legacy">Reboot and install</string>
     <string name="notification_download_action">Download</string>
     <string name="notification_abort_action">Abort</string>
-    <string name="settings_title">AICP OTA settings</string>
+    <string name="settings_title">OTA settings</string>
     <string name="channel_title">Release Type</string>
-    <string name="channel_incremental">Incremental</string>
-    <string name="channel_weekly">Weekly</string>
+    <string name="channel_stable">stable</string>
+    <string name="channel_unofficial">unofficial</string>
     <string name="network_type_title">Permitted networks</string>
     <string name="network_type_any">Any</string>
     <string name="network_type_not_roaming">Not roaming</string>

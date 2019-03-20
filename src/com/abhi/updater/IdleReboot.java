@@ -1,4 +1,4 @@
-package com.aicp.updater;
+package com.abhi.updater;
 
 import android.app.job.JobInfo;
 import android.app.job.JobParameters;
